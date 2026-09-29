@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Registro de la situación precaria de Málaga: violencia armada, caídas de árboles, desahucios.">
+  <title>Málaga en ruinas</title>
+  <script>
+    // Applied before first paint to avoid a theme flash.
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <div id="wip-banner" class="wip" role="status">
+    <p>Sitio en construcción. Datos parciales.</p>
+    <button type="button" id="wip-close" class="link-button" aria-label="Cerrar aviso">Cerrar</button>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="brand">Málaga en ruinas</a>
+      <nav aria-label="Secciones">
+        <ul id="nav-list" class="nav-list"></ul>
+      </nav>
+      <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Cambiar tema">Oscuro</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <h1>Málaga en ruinas</h1>
+      <p>Registro de hechos documentados en prensa que reflejan la situación precaria de la ciudad y su provincia.</p>
+    </section>
+
+    <section id="summary" class="summary" aria-label="Resumen"></section>
+
+    <div id="sections"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Cada entrada enlaza a su fuente original. Los datos se recopilan manualmente y pueden estar incompletos.</p>
+    </div>
+  </footer>
+</body>
+</html>

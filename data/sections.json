@@ -1,0 +1,23 @@
+[
+  {
+    "id": "violencia-armada",
+    "title": "Violencia armada",
+    "description": "Tiroteos y ataques con armas de fuego registrados en la provincia.",
+    "year": 2026,
+    "file": "data/2026/gv.json"
+  },
+  {
+    "id": "arboles",
+    "title": "Caídas de árboles y ramas",
+    "description": "Desplomes de árboles, palmeras y ramas en la vía pública.",
+    "year": 2026,
+    "file": "data/2026/trees.json"
+  },
+  {
+    "id": "desahucios",
+    "title": "Desahucios",
+    "description": "Lanzamientos y desalojos de viviendas.",
+    "year": 2026,
+    "file": "data/2026/evictions.json"
+  }
+]
