@@ -1,0 +1,23 @@
+[
+  {
+    "date": "2026-09-30",
+    "location": "Playas de Campo de Golf, Sacaba, Misericordia y San Andrés (Málaga capital)",
+    "description": "El Ayuntamiento desaconseja el baño tras detectar niveles elevados de la bacteria E. coli provocados por alivios de aguas residuales y fecales en la red de saneamiento tras fuertes lluvias.",
+    "source_name": "El Español",
+    "source_link": "https://www.elespanol.com/malaga/malaga-ciudad/20260930/detectan-coli-playas-malaga-campo-golf-sacaba-misericordia-san-andres/1003744403537_0.html"
+  },
+  {
+    "date": "2026-08-17",
+    "location": "Playas de El Palo y Pedregalejo (Málaga capital) y litoral de Benalmádena",
+    "description": "Prohibición del baño y bandera roja por tercera vez en menos de un mes, en plena Feria de Málaga, tras registrarse picos de contaminación por E. coli superiores a los límites legales.",
+    "source_name": "EL PAÍS",
+    "source_link": "https://elpais.com/espana/2026-08-17/malaga-cierra-por-tercera-vez-en-menos-de-un-mes-varias-de-sus-playas-por-la-presencia-de-e-coli.html"
+  },
+  {
+    "date": "2026-07-23",
+    "location": "Playas de Pedregalejo y El Palo, Málaga capital",
+    "description": "Decreto de cierre preventivo al baño por el consistorio de la ciudad a recomendación de la Consejería de Sanidad de la Junta de Andalucía por contaminación microbiológica.",
+    "source_name": "Ayuntamiento de Málaga (Comunicado)",
+    "source_link": "https://www.malaga.eu/el-ayuntamiento/notas-de-prensa/detalle-de-la-nota-de-prensa/index.html?id=178366"
+  }
+]

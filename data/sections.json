@@ -19,5 +19,12 @@
     "description": "Lanzamientos y desalojos de viviendas.",
     "year": 2026,
     "file": "data/2026/evictions.json"
+  },
+  {
+    "id": "playas",
+    "title": "Playas",
+    "description": "Incidencias y alertas en las playas de Málaga y su provincia.",
+    "year": 2026,
+    "file": "data/2026/beach.json"
   }
 ]
