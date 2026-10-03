@@ -194,7 +194,7 @@
     }
     function update() {
       const isDark = current() === 'dark';
-      btn.textContent = isDark ? 'Claro' : 'Oscuro';
+      btn.textContent = isDark ? '☀️' : '🌙';
       btn.setAttribute('aria-label', isDark ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
     }
 
