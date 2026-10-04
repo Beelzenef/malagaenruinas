@@ -182,6 +182,16 @@
       container.appendChild(rendered.node);
       summary.appendChild(renderStat(section, rendered.items));
     });
+
+    const hopeContainer = document.getElementById('hope-items');
+    try {
+      const items = (await fetchJson('data/hope.json')).sort(byDateDesc);
+      const list = el('ul', 'cards');
+      items.forEach(function (item) { list.appendChild(renderCard(item)); });
+      hopeContainer.appendChild(list);
+    } catch (e) {
+      hopeContainer.appendChild(el('p', 'notice error', 'No se pudieron cargar los datos de esperanza.'));
+    }
   }
 
   function initTheme() {
