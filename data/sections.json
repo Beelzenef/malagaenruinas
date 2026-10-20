@@ -2,7 +2,7 @@
   {
     "id": "violencia-armada",
     "title": "Violencia armada",
-    "description": "Tiroteos y ataques con armas de fuego registrados en la provincia.",
+    "description": "Ataques con armas de filo y tiroteos registrados en la provincia.",
     "year": 2026,
     "file": "data/2026/gv.json"
   },
@@ -16,7 +16,7 @@
   {
     "id": "desahucios",
     "title": "Desahucios",
-    "description": "Lanzamientos y desalojos de viviendas.",
+    "description": "Desalojos y deshaucios de viviendas.",
     "year": 2026,
     "file": "data/2026/evictions.json"
   },
